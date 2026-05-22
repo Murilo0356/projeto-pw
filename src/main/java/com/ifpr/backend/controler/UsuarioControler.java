@@ -31,7 +31,7 @@ public class UsuarioControler {
     public ResponseEntity<List<Usuario>> buscarTodos(){
         return ResponseEntity.ok(service.listarTodos());
     }
-
+//aaaaaaaaaaaaaaaaaaaaaaaaa
     @PostMapping
     public ResponseEntity<Usuario> inserir(@RequestBody @Valid Usuario usuario){
         Usuario usurioDB = service.inserir(usuario);
